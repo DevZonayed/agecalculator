@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #a4a4a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px ;
+    padding: 20px;
+    border-top: 4px solid rgb(209, 13, 137);
+    border-bottom: 4px solid rgb(209, 13, 137);
+}
+.inputBox{
+    display: flex;
+}
+.nameBox{
+    min-width: 50%;
+}
+.dateBox{
+    min-width: 50%;
+}
+label{
+    font-weight: 500;
+    font-size: 12px;
+}
+input{
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 10px 0px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+.calculate{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    padding: 10px 0px;
+    background-color: rgb(209, 13, 137);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+}
+.calculate:hover{
+    background-color: rgb(145, 9, 95);
+}
+.inner{
+    padding: 20px 0px;
+    border-bottom: 1px solid gray;
+}
+
+/** 
+*
+*   input style end here--
+*   output style start here--
+*
+*/
+
+.outer{
+    padding: 20px 0px;
+}
